@@ -3,7 +3,9 @@ The `Singleton` design pattern ensures a class has only one instance and provide
 Frequency of use:
 ## UML class diagram
 A visualization of the classes and objects participating in this pattern.
+
 ![Class Diagram](https://www.dofactory.com/img/diagrams/net/Singleton.png)
+
 ## 	Participants
 The classes and objects participating in this pattern include:
 
