@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Singleton_Demo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,26 +27,47 @@ namespace Singleton_Pattern
             #endregion
 
             #region real-world LoadBalancer
-            LoadBalancer b1 = LoadBalancer.GetLoadBalancer();
-            LoadBalancer b2 = LoadBalancer.GetLoadBalancer();
-            LoadBalancer b3 = LoadBalancer.GetLoadBalancer();
-            LoadBalancer b4 = LoadBalancer.GetLoadBalancer();
+            //LoadBalancer b1 = LoadBalancer.GetLoadBalancer();
+            //LoadBalancer b2 = LoadBalancer.GetLoadBalancer();
+            //LoadBalancer b3 = LoadBalancer.GetLoadBalancer();
+            //LoadBalancer b4 = LoadBalancer.GetLoadBalancer();
 
-            // Same instance?
+            //// Same instance?
+            //if(b1 == b2 && b2 == b3 && b3 == b4)
+            //{
+            //    Console.WriteLine("Same instance\n");
+            //}
+
+            //// Load balance 15 server request
+            //LoadBalancer balancer = LoadBalancer.GetLoadBalancer();
+            //for(int i = 0 ; i < 15 ; i++)
+            //{
+            //    string server = balancer.Server;
+            //    Console.WriteLine($"{i} - Dispatch Request to: " + server);
+            //}
+
+            ////Wait for user
+            //Console.ReadKey();
+            #endregion
+
+            #region Optimized LoadBalancer code
+            var b1 = OptimizedLoadBalancer.GetOptimizedLoadBalancer();
+            var b2 = OptimizedLoadBalancer.GetOptimizedLoadBalancer();
+            var b3 = OptimizedLoadBalancer.GetOptimizedLoadBalancer();
+            var b4 = OptimizedLoadBalancer.GetOptimizedLoadBalancer();
+            // Confirm these are the same instance
             if(b1 == b2 && b2 == b3 && b3 == b4)
             {
                 Console.WriteLine("Same instance\n");
             }
-
-            // Load balance 15 server request
-            LoadBalancer balancer = LoadBalancer.GetLoadBalancer();
+            // Next, load balance 15 requests for a server
+            var balancer = OptimizedLoadBalancer.GetOptimizedLoadBalancer();
             for(int i = 0 ; i < 15 ; i++)
             {
-                string server = balancer.Server;
-                Console.WriteLine($"{i} - Dispatch Request to: " + server);
+                string serverName = balancer.NextServer.Name;
+                Console.WriteLine("Dispatch request to: " + serverName);
             }
-
-            //Wait for user
+            // Wait for user
             Console.ReadKey();
             #endregion
 
