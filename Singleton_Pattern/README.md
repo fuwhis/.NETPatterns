@@ -1,6 +1,6 @@
 ## C# Singleton
 The `Singleton` design pattern ensures a class has only one instance and provide a global point of access to it.
-Frequency of use:
+Frequency of use: ![measure](https://www.dofactory.com/img/patterns/use-medium-high.jpg) medium-high
 ## UML class diagram
 A visualization of the classes and objects participating in this pattern.
 
