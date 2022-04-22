@@ -45,7 +45,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealWorld\AbstractFactory\AmericaFactory.cs" />
     <Compile Include="RealWorld\AbstractFactory\ContinentFactory.cs" />
+    <Compile Include="RealWorld\AbstractFactory\AfricaFactory.cs" />
+    <Compile Include="RealWorld\AfricaFactory\Lion.cs" />
+    <Compile Include="RealWorld\AfricaFactory\Wildebeest.cs" />
+    <Compile Include="RealWorld\AmericaFactory\Bison.cs" />
+    <Compile Include="RealWorld\AmericaFactory\Wolf.cs" />
+    <Compile Include="RealWorld\AnimalWorld.cs" />
+    <Compile Include="RealWorld\Carnivore.cs" />
+    <Compile Include="RealWorld\Herbivore.cs" />
     <Compile Include="Structual\AbstractClass\AbstractFactory.cs" />
     <Compile Include="Structual\Client.cs" />
     <Compile Include="Structual\ConcreteFactory2.cs" />
@@ -60,9 +69,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="RealWorld\AfricaFactory\" />
-    <Folder Include="RealWorld\AmericaFactory\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

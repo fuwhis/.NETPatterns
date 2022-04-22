@@ -1,4 +1,7 @@
-﻿using Abstract_Factory_Pattern.Structual;
+﻿using Abstract_Factory_Pattern.RealWorld;
+using Abstract_Factory_Pattern.RealWorld.AbstractFactory;
+using Abstract_Factory_Pattern.RealWorld.AfricaFactory;
+using Abstract_Factory_Pattern.Structual;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +19,7 @@ namespace Abstract_Factory_Pattern
         static void Main(string[] args)
         {
             #region Structural
+
             //// Abstract factory #1
             //AbstractFactory factory1 = new ConcreteFactory1();
             //Client client1 = new Client(factory1);
@@ -26,13 +30,21 @@ namespace Abstract_Factory_Pattern
             //client2.Run();
             //// Wait for user input
             //Console.ReadKey();
+
             #endregion
 
             #region RealWorld
-            /// <summary>
-            /// Entry point into console application.
-            /// </summary>
-            
+
+            // Create and run the African animal world
+            ContinentFactory africa = new AfricaFactory();
+            AnimalWorld world = new AnimalWorld(africa);
+            world.RunFoodChain();
+
+            ContinentFactory america = new AmericaFactory();
+            world = new AnimalWorld(america);
+            world.RunFoodChain();
+            // Wait for user input
+            Console.ReadKey();
 
             #endregion
         }
