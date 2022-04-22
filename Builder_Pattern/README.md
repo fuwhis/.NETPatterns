@@ -25,7 +25,8 @@ The classes and objects participating in this pattern include:
 ## Structure of Console Code
 ### Structural code in C#
 This structural code demonstrates the Abstract Factory pattern creating parallel hierarchies of objects. Object creation has been abstracted and there is no need for hard-coded class names in the client code.
-####Output
+
+**Output**
 ```
 Product Parts ------
 PartA
@@ -37,7 +38,8 @@ PartY
 ```
 ### Real-world code in C#
 This real-world code demonstrates the creation of different animal worlds for a computer game using different factories. Although the animals created by the Continent factories are different, the interactions among the animals remain the same.
-####Output
+
+**Output**
 ```
 ---------------------------
 Vehicle Type: Scooter
