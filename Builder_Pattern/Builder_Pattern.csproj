@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RealWorld\CarBuilder.cs" />
+    <Compile Include="RealWorld\MotorCycleBuilder.cs" />
+    <Compile Include="RealWorld\ScooterBuilder.cs" />
+    <Compile Include="RealWorld\Shop.cs" />
+    <Compile Include="RealWorld\Vehicle.cs" />
+    <Compile Include="RealWorld\VehicleBuilder.cs" />
     <Compile Include="Structural\ConcreteBuilder2.cs" />
     <Compile Include="Structural\ConcreteBuilder1.cs" />
     <Compile Include="Structural\Product.cs" />
@@ -54,8 +60,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="RealWorld\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
