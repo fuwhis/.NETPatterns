@@ -1,7 +1,7 @@
 ## C# Abstract Factory
 The `Abstract Factory` design pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-Frequency of use: ![measure](https://www.dofactory.com/img/patterns/use-high.jpg) high
+Frequency of use:  ![measure](https://www.dofactory.com/img/patterns/use-high.jpg)  high
 ## UML class diagram
 A visualization of the classes and objects participating in this pattern.
 
@@ -10,7 +10,7 @@ A visualization of the classes and objects participating in this pattern.
 ## 	Participants
 The classes and objects participating in this pattern include:
 
-- **AbstractFactory ** (`ContinentFactory`)
+- **AbstractFactory** (`ContinentFactory`)
 	- declares an interface for operations that create abstract products
 - **ConcreteFactory** (`AfricaFactory`, `AmericaFactory`)
 	- implements the operations to create concrete product objects
