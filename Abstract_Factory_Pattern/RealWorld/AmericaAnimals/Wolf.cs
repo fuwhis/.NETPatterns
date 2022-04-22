@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstract_Factory_Pattern.RealWorld.AfricaFactory
+namespace Abstract_Factory_Pattern.RealWorld.America
 {
     /// <summary>
-    /// The 'ProductB1' class
+    /// The 'ProductB2' class
     /// </summary>
-    class Lion : Carnivore
+    class Wolf : Carnivore
     {
         public override void Eat(Herbivore h)
         {
-            // Eat Wildebeest
+            // Eat Bison
             Console.WriteLine(this.GetType().Name + " eats " + h.GetType().Name);
         }
     }

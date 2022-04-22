@@ -1,5 +1,4 @@
-﻿using Abstract_Factory_Pattern.RealWorld.AbstractFactory;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +9,7 @@ namespace Abstract_Factory_Pattern.RealWorld
     /// <summary>
     /// The 'Client' class 
     /// </summary>
-    class AnimalWorld
+    internal class AnimalWorld
     {
         private Herbivore _herbivore;
         private Carnivore _carnivore;

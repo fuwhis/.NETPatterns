@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstract_Factory_Pattern.RealWorld.AmericaFactory
+namespace Abstract_Factory_Pattern.RealWorld.Africa
 {
     /// <summary>
-    /// The 'ProductA2' class
+    /// The 'ProductA1' class
     /// </summary>
-    class Bison : Herbivore
+    class Wildebeest : Herbivore
     {
     }
 }

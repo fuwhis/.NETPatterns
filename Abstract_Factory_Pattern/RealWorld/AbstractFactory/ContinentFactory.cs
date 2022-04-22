@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstract_Factory_Pattern.RealWorld.AbstractFactory
+namespace Abstract_Factory_Pattern.RealWorld
 {
     /// <summary>
     /// The 'AbstractFactory' abstract class

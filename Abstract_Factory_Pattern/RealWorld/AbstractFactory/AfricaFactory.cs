@@ -1,13 +1,14 @@
-﻿using Abstract_Factory_Pattern.RealWorld.AbstractFactory;
+﻿using Abstract_Factory_Pattern.RealWorld;
+using Abstract_Factory_Pattern.RealWorld.Africa;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstract_Factory_Pattern.RealWorld.AfricaFactory
+namespace Abstract_Factory_Pattern.RealWorld
 {
-    internal class AfricaFactory: ContinentFactory
+    class AfricaFactory : ContinentFactory
     {
         public override Herbivore CreateHerbivore()
         {
