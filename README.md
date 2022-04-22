@@ -14,7 +14,7 @@ A third form, .NET optimized, demonstrates design patterns that fully exploit bu
 ## Creational Patterns
 | Pattern | Purpose |
 | --- | --- |
-| [Abtract Factory]() | Creates an instance of several families of classes |
+| [Abtract Factory](https://github.com/fuwhis/.NETPatterns/tree/master/Abstract_Factory_Pattern) | Creates an instance of several families of classes |
 | [Builder]() | Separates object construction from its representation |
 | [Factory Method]() | Creates an instance of several derived classes |
 | [Prototype]() | A fully initialized instance to be copied or cloned |
