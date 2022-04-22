@@ -45,9 +45,24 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealWorld\AbstractFactory\ContinentFactory.cs" />
+    <Compile Include="Structual\AbstractClass\AbstractFactory.cs" />
+    <Compile Include="Structual\Client.cs" />
+    <Compile Include="Structual\ConcreteFactory2.cs" />
+    <Compile Include="Structual\ProductB\AbstractProductB.cs" />
+    <Compile Include="Structual\ProductA\AbstractProductA.cs" />
+    <Compile Include="Structual\ConcreteFactory1.cs" />
+    <Compile Include="Structual\ProductA\ProductA1.cs" />
+    <Compile Include="Structual\ProductB\ProductB1.cs" />
+    <Compile Include="Structual\ProductA\ProductA2.cs" />
+    <Compile Include="Structual\ProductB\ProductB2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RealWorld\AfricaFactory\" />
+    <Folder Include="RealWorld\AmericaFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
