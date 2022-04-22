@@ -15,7 +15,7 @@ A third form, .NET optimized, demonstrates design patterns that fully exploit bu
 | Pattern | Purpose |
 | --- | --- |
 | [Abtract Factory](https://github.com/fuwhis/.NETPatterns/tree/master/Abstract_Factory_Pattern) | Creates an instance of several families of classes |
-| [Builder]() | Separates object construction from its representation |
+| [Builder](https://github.com/fuwhis/.NETPatterns/tree/master/Builder_Pattern) | Separates object construction from its representation |
 | [Factory Method]() | Creates an instance of several derived classes |
 | [Prototype]() | A fully initialized instance to be copied or cloned |
 | [Singleton](https://github.com/fuwhis/.NETPatterns/tree/master/Singleton_Pattern) | A class of which only a single instance can exist |
