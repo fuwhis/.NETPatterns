@@ -43,6 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RealWorld\ConcreteDocument\Report.cs" />
+    <Compile Include="RealWorld\ConcreteDocument\Resume.cs" />
+    <Compile Include="RealWorld\ConcretePage\BibliographyPage.cs" />
+    <Compile Include="RealWorld\ConcretePage\ConclusionPage.cs" />
+    <Compile Include="RealWorld\ConcretePage\EducationPage.cs" />
+    <Compile Include="RealWorld\ConcretePage\ExperiencePage.cs" />
+    <Compile Include="RealWorld\ConcretePage\IntroductionPage.cs" />
+    <Compile Include="RealWorld\ConcretePage\ResultsPage.cs" />
+    <Compile Include="RealWorld\ConcretePage\SkillsPage.cs" />
+    <Compile Include="RealWorld\ConcretePage\SummaryPage.cs" />
+    <Compile Include="RealWorld\Document.cs" />
+    <Compile Include="RealWorld\Page.cs" />
+    <Compile Include="Structural\ConcreteCreator\ConcreteCreatorA.cs" />
+    <Compile Include="Structural\ConcreteCreator\ConcreteCreatorB.cs" />
+    <Compile Include="Structural\ConcreteProduct\ConcreteProductA.cs" />
+    <Compile Include="Structural\ConcreteProduct\ConcreteProductB.cs" />
+    <Compile Include="Structural\Creator.cs" />
+    <Compile Include="Structural\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
