@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealWorld\ColorManager.cs" />
+    <Compile Include="RealWorld\ColorPrototype.cs" />
+    <Compile Include="RealWorld\ConcreteClass\Color.cs" />
+    <Compile Include="Structural\ConcreteClass\ConcretePrototype1.cs" />
+    <Compile Include="Structural\ConcreteClass\ConcretePrototype2.cs" />
+    <Compile Include="Structural\Prototype.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
