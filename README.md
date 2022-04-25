@@ -12,13 +12,13 @@ To give you a head start, the C# source code for each pattern is provided in 2 f
 A third form, .NET optimized, demonstrates design patterns that fully exploit built-in .NET features, such as, generics, delegates, reflection, and more. These and much more are available in our Dofactory .NET product. See the Singleton page for a .NET Optimized example.
 
 ## Creational Patterns
-| Pattern | Purpose |
-| --- | --- |
-| [Abtract Factory](https://github.com/fuwhis/.NETPatterns/tree/master/Abstract_Factory_Pattern) | Creates an instance of several families of classes |
-| [Builder](https://github.com/fuwhis/.NETPatterns/tree/master/Builder_Pattern) | Separates object construction from its representation |
-| [Factory Method](https://github.com/fuwhis/.NETPatterns/tree/master/FactoryMethod_Pattern) | Creates an instance of several derived classes |
-| [Prototype]() | A fully initialized instance to be copied or cloned |
-| [Singleton](https://github.com/fuwhis/.NETPatterns/tree/master/Singleton_Pattern) | A class of which only a single instance can exist |
+| Pattern | Purpose | Usage |
+| --- | --- | --- |
+| [Abtract Factory](https://github.com/fuwhis/.NETPatterns/tree/master/Abstract_Factory_Pattern) | Creates an instance of several families of classes | ![measure](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [Builder](https://github.com/fuwhis/.NETPatterns/tree/master/Builder_Pattern) | Separates object construction from its representation | ![measure](https://www.dofactory.com/img/patterns/use-medium-low.jpg) |
+| [Factory Method](https://github.com/fuwhis/.NETPatterns/tree/master/FactoryMethod_Pattern) | Creates an instance of several derived classes |	![measure](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [Prototype](https://github.com/fuwhis/.NETPatterns/tree/master/Prototype_Pattern) | A fully initialized instance to be copied or cloned | ![measure](https://www.dofactory.com/img/patterns/use-medium.jpg) |
+| [Singleton](https://github.com/fuwhis/.NETPatterns/tree/master/Singleton_Pattern) | A class of which only a single instance can exist | ![measure](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
 
 ## Structual Patterns
 | Pattern | Purpose |
