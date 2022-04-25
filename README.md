@@ -14,34 +14,34 @@ A third form, .NET optimized, demonstrates design patterns that fully exploit bu
 ## Creational Patterns
 | Pattern | Purpose | Usage |
 | --- | --- | --- |
-| [Abtract Factory](https://github.com/fuwhis/.NETPatterns/tree/master/Abstract_Factory_Pattern) | Creates an instance of several families of classes | ![measure](https://www.dofactory.com/img/patterns/use-high.jpg) |
-| [Builder](https://github.com/fuwhis/.NETPatterns/tree/master/Builder_Pattern) | Separates object construction from its representation | ![measure](https://www.dofactory.com/img/patterns/use-medium-low.jpg) |
-| [Factory Method](https://github.com/fuwhis/.NETPatterns/tree/master/FactoryMethod_Pattern) | Creates an instance of several derived classes |	![measure](https://www.dofactory.com/img/patterns/use-high.jpg) |
-| [Prototype](https://github.com/fuwhis/.NETPatterns/tree/master/Prototype_Pattern) | A fully initialized instance to be copied or cloned | ![measure](https://www.dofactory.com/img/patterns/use-medium.jpg) |
-| [Singleton](https://github.com/fuwhis/.NETPatterns/tree/master/Singleton_Pattern) | A class of which only a single instance can exist | ![measure](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
+| [Abtract Factory](https://github.com/fuwhis/.NETPatterns/tree/master/Abstract_Factory_Pattern) | Creates an instance of several families of classes | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [Builder](https://github.com/fuwhis/.NETPatterns/tree/master/Builder_Pattern) | Separates object construction from its representation | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg) |
+| [Factory Method](https://github.com/fuwhis/.NETPatterns/tree/master/FactoryMethod_Pattern) | Creates an instance of several derived classes |	![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [Prototype](https://github.com/fuwhis/.NETPatterns/tree/master/Prototype_Pattern) | A fully initialized instance to be copied or cloned | ![image](https://www.dofactory.com/img/patterns/use-medium.jpg) |
+| [Singleton](https://github.com/fuwhis/.NETPatterns/tree/master/Singleton_Pattern) | A class of which only a single instance can exist | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
 
 ## Structual Patterns
-| Pattern | Purpose |
-| --- | --- |
-| [Adapter]() | Match interfaces of different classes |
-| [Bridge]() | Separates an object’s interface from its implementation |
-| [Composite]() | A tree structure of simple and composite objects |
-| [Decorate]() | Add responsibilities to objects dynamically |
-| [Facade]() | A single class that represents an entire subsystem |
-| [Flyweight]() | A fine-grained instance used for efficient sharing |
-| [Proxy]() | An object representing another object |
+| Pattern | Purpose | Usage |
+| --- | --- | --- |
+| [Adapter]() | Match interfaces of different classes | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg)
+| [Bridge]() | Separates an object’s interface from its implementation | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg)	|
+| [Composite]() | A tree structure of simple and composite objects | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg)	|
+| [Decorate]() | Add responsibilities to objects dynamically | ![image](https://www.dofactory.com/img/patterns/use-medium.jpg) |
+| [Facade]() | A single class that represents an entire subsystem | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [Flyweight]() | A fine-grained instance used for efficient sharing | ![image](https://www.dofactory.com/img/patterns/use-low.jpg) |
+| [Proxy]() | An object representing another object | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
 
 ## Behavioural Patterns
-| Pattern | Purpose |
-| --- | --- |
-| [Chain of Resp.]() | A way of passing a request between a chain of objects |
-| [Command]() | Encapsulate a command request as an object |
-| [Interpreter]() | A way to include language elements in a program |
-| [Iterator]() | Sequentially access the elements of a collection |
-| [Mediator]() | Defines simplified communication between classes |
-| [Memento]() | Capture and restore an object's internal state |
-| [Observer]() | A way of notifying change to a number of classes |
-| [State]() | Alter an object's behavior when its state changes |
-| [Strategy]() | Encapsulates an algorithm inside a class |
-| [Template Method]() | Defer the exact steps of an algorithm to a subclass |
-| [Visitor]() | Defines a new operation to a class without change |
+| Pattern | Purpose | Usage |
+| --- | --- | --- |
+| [Chain of Resp.]() | A way of passing a request between a chain of objects | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg) |
+| [Command]() | Encapsulate a command request as an object | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
+| [Interpreter]() | A way to include language elements in a program | ![image](https://www.dofactory.com/img/patterns/use-low.jpg) |
+| [Iterator]() | Sequentially access the elements of a collection | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [Mediator]() | Defines simplified communication between classes | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg) |
+| [Memento]() | Capture and restore an object's internal state | ![image](https://www.dofactory.com/img/patterns/use-low.jpg) |
+| [Observer]() | A way of notifying change to a number of classes | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [State]() | Alter an object's behavior when its state changes | ![image](https://www.dofactory.com/img/patterns/use-medium.jpg) |
+| [Strategy]() | Encapsulates an algorithm inside a class | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
+| [Template Method]() | Defer the exact steps of an algorithm to a subclass | ![image](https://www.dofactory.com/img/patterns/use-medium.jpg) |
+| [Visitor]() | Defines a new operation to a class without change | ![image](https://www.dofactory.com/img/patterns/use-low.jpg) |
