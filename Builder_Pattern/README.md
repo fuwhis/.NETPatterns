@@ -39,6 +39,8 @@ PartY
 ### Real-world code in C#
 This real-world code demonstrates the creation of different animal worlds for a computer game using different factories. Although the animals created by the Continent factories are different, the interactions among the animals remain the same.
 
+![ClassDiagram](https://user-images.githubusercontent.com/29690027/165048915-7edd0ab3-27a1-4f48-80d2-b85792d6593c.jpg)
+
 **Output**
 ```
 ---------------------------
