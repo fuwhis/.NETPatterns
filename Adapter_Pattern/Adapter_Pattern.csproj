@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealWorld\ChemicalDatabank.cs" />
+    <Compile Include="RealWorld\Compound.cs" />
+    <Compile Include="RealWorld\RichCompound.cs" />
     <Compile Include="Structural\Adaptee.cs" />
     <Compile Include="Structural\Adapter.cs" />
     <Compile Include="Structural\Target.cs" />
