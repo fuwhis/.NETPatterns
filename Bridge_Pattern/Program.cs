@@ -20,10 +20,12 @@ namespace Bridge_Pattern
             // Change implemention and call 
             ab.Implementor = new ConcreteImplementorB();
             ab.Operation();
+            Console.WriteLine("\n");
             #endregion
 
             #region Real-world Code
-
+            // Create RefinedAbstraction
+            var customers = new Customers(); 
             #endregion
         }
     }

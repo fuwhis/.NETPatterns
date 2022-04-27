@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealWorld\Customers.cs" />
+    <Compile Include="RealWorld\CustomersBase.cs" />
+    <Compile Include="RealWorld\DataObject.cs" />
     <Compile Include="Structural\Abstraction.cs" />
     <Compile Include="Structural\ConcreteImplementorA.cs" />
     <Compile Include="Structural\ConcreteImplementorB.cs" />
@@ -54,8 +57,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="RealWorld\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
