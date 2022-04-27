@@ -24,7 +24,7 @@ A third form, .NET optimized, demonstrates design patterns that fully exploit bu
 | Pattern | Purpose | Usage |
 | --- | --- | --- |
 | [Adapter](https://github.com/fuwhis/.NETPatterns/tree/master/Adapter_Pattern) | Match interfaces of different classes | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg)
-| [Bridge]() | Separates an object’s interface from its implementation | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg)	|
+| [Bridge](https://github.com/fuwhis/.NETPatterns/tree/master/Bridge_Pattern) | Separates an object’s interface from its implementation | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg)	|
 | [Composite]() | A tree structure of simple and composite objects | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg)	|
 | [Decorate]() | Add responsibilities to objects dynamically | ![image](https://www.dofactory.com/img/patterns/use-medium.jpg) |
 | [Facade]() | A single class that represents an entire subsystem | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
