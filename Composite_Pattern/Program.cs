@@ -10,6 +10,13 @@ namespace Composite_Pattern
     {
         static void Main(string[] args)
         {
+            #region Structural Code
+
+            #endregion
+
+            #region Real-world Code
+
+            #endregion
         }
     }
 }
