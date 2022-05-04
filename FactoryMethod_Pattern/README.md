@@ -22,7 +22,7 @@ The classes and objects participating in this pattern include:
 
 ## Structure of Console Code
 ### Structural code in C#
-This structural code demonstrates the Abstract Factory pattern creating parallel hierarchies of objects. Object creation has been abstracted and there is no need for hard-coded class names in the client code.
+This structural code demonstrates the Factory method offering great flexibility in creating different objects. The Abstract class may provide a default object, but each subclass can instantiate an extended version of the object.
 
 **Output**
 ```
@@ -30,7 +30,7 @@ Created ConcreteProductA
 Created ConcreteProductB
 ```
 ### Real-world code in C#
-This real-world code demonstrates the creation of different animal worlds for a computer game using different factories. Although the animals created by the Continent factories are different, the interactions among the animals remain the same.
+This real-world code demonstrates the Factory method offering flexibility in creating different documents. The derived Document classes Report and Resume instantiate extended versions of the Document class. Here, the Factory Method is called in the constructor of the Document base class.
 
 **Output**
 ```
