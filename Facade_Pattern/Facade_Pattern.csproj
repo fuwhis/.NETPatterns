@@ -45,13 +45,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Facade.cs" />
+    <Compile Include="Structural\SubSystems\SubSystemFour.cs" />
+    <Compile Include="Structural\SubSystems\SubSystemThree.cs" />
+    <Compile Include="Structural\SubSystems\SubSystemTwo.cs" />
+    <Compile Include="Structural\SubSystems\SubSystemOne.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RealWorld\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
