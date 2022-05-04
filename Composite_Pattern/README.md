@@ -27,7 +27,7 @@ The classes and objects participating in this pattern include:
 
 ## Structure of Console Code
 ### Structural code in C#
-This structural code demonstrates the Abstract Factory pattern creating parallel hierarchies of objects. Object creation has been abstracted and there is no need for hard-coded class names in the client code.
+This structural code demonstrates the Composite pattern which allows the creation of a tree structure in which individual nodes are accessed uniformly whether they are leaf nodes or branch (composite) nodes.
 
 **Output**
 ```
@@ -40,7 +40,7 @@ This structural code demonstrates the Abstract Factory pattern creating parallel
 ---Leaf C
 ```
 ### Real-world code in C#
-This real-world code demonstrates the creation of different animal worlds for a computer game using different factories. Although the animals created by the Continent factories are different, the interactions among the animals remain the same.
+This real-world code demonstrates the Composite pattern used in building a graphical tree structure made up of primitive nodes (lines, circles, etc) and composite nodes (groups of drawing elements that make up more complex elements).
 
 **Output**
 ```
