@@ -24,7 +24,7 @@ The classes and objects participating in this pattern include:
 
 ## Structure of Console Code
 ### Structural code in C#
-This structural code demonstrates the Abstract Factory pattern creating parallel hierarchies of objects. Object creation has been abstracted and there is no need for hard-coded class names in the client code.
+This structural code demonstrates the Builder pattern in which complex objects are created in a step-by-step fashion. The construction process can create different object representations and provides a high level of control over the assembly of the objects.
 
 **Output**
 ```
@@ -37,7 +37,7 @@ PartX
 PartY
 ```
 ### Real-world code in C#
-This real-world code demonstrates the creation of different animal worlds for a computer game using different factories. Although the animals created by the Continent factories are different, the interactions among the animals remain the same.
+This real-world code demonstrates the Builder pattern in which different vehicles are assembled in a step-by-step fashion. The Shop uses VehicleBuilders to construct a variety of Vehicles in a series of sequential steps.
 
 ![ClassDiagram](https://user-images.githubusercontent.com/29690027/165048915-7edd0ab3-27a1-4f48-80d2-b85792d6593c.jpg)
 
