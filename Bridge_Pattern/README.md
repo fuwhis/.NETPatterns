@@ -22,7 +22,7 @@ The classes and objects participating in this pattern include:
 
 ## Structure of Console Code
 ### Structural code in C#
-This structural code demonstrates the Abstract Factory pattern creating parallel hierarchies of objects. Object creation has been abstracted and there is no need for hard-coded class names in the client code.
+This structural code demonstrates the Bridge pattern which separates (decouples) the interface from its implementation. The implementation can evolve without changing clients which use the abstraction of the object.
 
 **Output**
 ```
@@ -30,7 +30,7 @@ ConcreteImplementorA Operation
 ConcreteImplementorB Operation
 ```
 ### Real-world code in C#
-This real-world code demonstrates the creation of different animal worlds for a computer game using different factories. Although the animals created by the Continent factories are different, the interactions among the animals remain the same.
+This real-world code demonstrates the Bridge pattern in which a BusinessObject abstraction is decoupled from the implementation in DataObject. The DataObject implementations can evolve dynamically without changing any clients. 
 
 **Output**
 ```
