@@ -29,7 +29,7 @@ A third form, .NET optimized, demonstrates design patterns that fully exploit bu
 | [Decorate](https://github.com/fuwhis/.NETPatterns/tree/master/Decorate_Pattern) | Add responsibilities to objects dynamically | ![image](https://www.dofactory.com/img/patterns/use-medium.jpg) |
 | [Facade](https://github.com/fuwhis/.NETPatterns/tree/master/Facade_Pattern) | A single class that represents an entire subsystem | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
 | [Flyweight]() | A fine-grained instance used for efficient sharing | ![image](https://www.dofactory.com/img/patterns/use-low.jpg) |
-| [Proxy]() | An object representing another object | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
+| [Proxy](https://github.com/fuwhis/.NETPatterns/tree/master/Proxy_Pattern) | An object representing another object | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
 
 ## Behavioural Patterns
 | Pattern | Purpose | Usage |
