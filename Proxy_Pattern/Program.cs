@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proxy_Pattern.Structural;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,8 +16,11 @@ namespace Proxy_Pattern
         {
             #region Structural Code
             Console.WriteLine("***Structural Code****\n");
+            // Create proxy and request a service
+            Proxy proxy = new Proxy();
+            proxy.Request();
             #endregion
-
+            Console.WriteLine("==========================");
             #region Real-world Code
             Console.WriteLine("***Real-world Code****\n");
 
