@@ -14,12 +14,12 @@ namespace Flyweight_Pattern
         static void Main(string[] args)
         {
             #region Structural Code
-            Console.WriteLine("****Structural Code Output****\n");
+            Console.WriteLine("------------------Structural Code--------------------\n");
 
             #endregion
             Console.WriteLine("\n===============================\n");
             #region Real-world Code
-            Console.WriteLine("****Real-world Code Output****\n");
+            Console.WriteLine("-------------------Real-world Code------------------\n");
 
             #endregion
         }
