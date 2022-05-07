@@ -19,7 +19,16 @@ namespace Flyweight_Pattern
             // Arbitrary extrinsic state
             int extrinsicstate = 22;
             FlyweightFactory factory = new FlyweightFactory();
-            
+            // Work with different flyweight instances
+            Flyweight fx = factory.GetFlyweight("X");
+            fx.Operation(--extrinsicstate);
+            Flyweight fy = factory.GetFlyweight("Y");
+            fy.Operation(--extrinsicstate);
+            Flyweight fz = factory.GetFlyweight("Z");
+            fz.Operation(--extrinsicstate);
+
+            UnsharedConcreteFlyweight unsharedConcreteFlyweight = new UnsharedConcreteFlyweight();
+            unsharedConcreteFlyweight.Operation(--extrinsicstate);
             #endregion
             Console.WriteLine("\n===============================\n");
             #region Real-world Code
