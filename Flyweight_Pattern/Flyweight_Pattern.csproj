@@ -45,13 +45,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\ConcreteFlyweight.cs" />
+    <Compile Include="Structural\Flyweight.cs" />
+    <Compile Include="Structural\FlyweightFactory.cs" />
+    <Compile Include="Structural\UnsharedConcreteFlyweight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RealWorld\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
