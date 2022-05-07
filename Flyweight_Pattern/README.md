@@ -25,23 +25,29 @@ The classes and objects participating in this pattern include:
 
 ## Structure of Console Code
 ### Structural code in C#
-This structural code demonstrates the Proxy pattern which provides a representative object (proxy) that controls access to another similar object.
+This structural code demonstrates the Flyweight pattern in which a relatively small number of objects is shared many times by different clients.
 
 **Output**
 ```
 ------------------Structural Code--------------------
-Called RealSubject.Request()
+ConcreteFlyweight: 21
+ConcreteFlyweight: 20
+ConcreteFlyweight: 19
+UnsharedConcreteFlyweight: 18
 ```
 ### Real-world code in C#
-This real-world code demonstrates the Proxy pattern for a Math object represented by a MathProxy object.
+This real-world code demonstrates the Flyweight pattern in which a relatively small number of Character objects is shared many times by a document that has potentially many characters.
 
 **Output**
 ```
 -------------------Real-world Code------------------
-4 + 2 = 6
-4 - 2 = 2
-4 * 2 = 8
-4 / 2 = 2
-```
+A (pointsize 11)
+A (pointsize 12)
+Z (pointsize 13)
+Z (pointsize 14)
+B (pointsize 15)
+B (pointsize 16)
+Z (pointsize 17)
+B (pointsize 18)```
 ### .NET Optimized code in C#
 The .NET optimized code demonstrates the same real-world situation as above but uses modern, built-in .NET features, such as, generics, reflection, LINQ, lambda functions, etc. You can find an example on our Singleton pattern page.	  
