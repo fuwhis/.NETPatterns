@@ -17,8 +17,9 @@ namespace Flyweight_Pattern
             Console.WriteLine("****Structural Code Output****\n");
 
             #endregion
-
+            Console.WriteLine("\n===============================\n");
             #region Real-world Code
+            Console.WriteLine("****Real-world Code Output****\n");
 
             #endregion
         }
