@@ -48,6 +48,7 @@ Z (pointsize 14)
 B (pointsize 15)
 B (pointsize 16)
 Z (pointsize 17)
-B (pointsize 18)```
+B (pointsize 18)
+```
 ### .NET Optimized code in C#
 The .NET optimized code demonstrates the same real-world situation as above but uses modern, built-in .NET features, such as, generics, reflection, LINQ, lambda functions, etc. You can find an example on our Singleton pattern page.	  
