@@ -10,6 +10,17 @@ namespace Chain_of_Responsibility_Pattern
     {
         static void Main(string[] args)
         {
+            #region Structural Code
+            Console.WriteLine("------------------Structural Code--------------------\n");
+            
+            #endregion
+
+            Console.WriteLine("\n===============================\n");
+
+            #region Real-world Code
+            Console.WriteLine("-------------------Real-world Code------------------\n");
+            
+            #endregion
         }
     }
 }
