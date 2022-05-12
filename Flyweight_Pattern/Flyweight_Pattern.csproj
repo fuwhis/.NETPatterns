@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealWorld\Character.cs" />
+    <Compile Include="RealWorld\ConcreteClasses\CharacterA.cs" />
+    <Compile Include="RealWorld\ConcreteClasses\CharacterB.cs" />
+    <Compile Include="RealWorld\CharacterFactory.cs" />
+    <Compile Include="RealWorld\ConcreteClasses\CharacterZ.cs" />
     <Compile Include="Structural\ConcreteFlyweight.cs" />
     <Compile Include="Structural\Flyweight.cs" />
     <Compile Include="Structural\FlyweightFactory.cs" />
@@ -53,8 +58,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="RealWorld\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
