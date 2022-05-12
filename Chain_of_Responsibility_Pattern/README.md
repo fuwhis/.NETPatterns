@@ -11,46 +11,40 @@ A visualization of the classes and objects participating in this pattern.
 The classes and objects participating in this pattern include:
 
 -  **Handler** (`Approver`)
-	- defines an interface for handling the requests.
-	- (optional) implements the successor link.
+	- defines an interface for handling the requests
+	- (optional) implements the successor link
 -  **ConcreteHandler** (`Director`, `VicePresident`, `President`)
 	- handles requests it is responsible for
-	- 
-	- 
--  **UnsharedConcreteFlyweight** (not used)
-	- not all Flyweight subclasses need to be shared. The Flyweight interface `enables` sharing, but it doesn't enforce it. It is common for UnsharedConcreteFlyweight objects to have ConcreteFlyweight objects as children at some level in the flyweight object structure (as the Row and Column classes have).
--  **FlyweightFactory** (`CharacterFactory`)
-	- creates and manages flyweight objects.
-	- ensures that flyweight are shared properly. When a client requests a flyweight, the FlyweightFactory objects assets an existing instance or creates one, if none exists.
--  **Client** (`FlyweightApp`)
-	- maintains a reference to flyweight(s).
-	- computes or stores the extrinsic state of flyweight(s).
+	- can access it successor
+	- if the ConcreteHandler can handle the request, it does so; otherwise it forwards the request to its successor
+-  **Client** (`ChainApp`)
+	- initiates the request to a ConcreteHandler object on the chain
 
 ## Structure of Console Code
 ### Structural code in C#
-This structural code demonstrates the Flyweight pattern in which a relatively small number of objects is shared many times by different clients.
+This structural code demonstrates the Chain of Responsibility pattern in which several linked objects (the Chain) are offered the opportunity to respond to a request or hand it off to the object next in line.
 
 **Output**
 ```
 ------------------Structural Code--------------------
-ConcreteFlyweight: 21
-ConcreteFlyweight: 20
-ConcreteFlyweight: 19
-UnsharedConcreteFlyweight: 18
+ConcreteHandler1 handled request 2
+ConcreteHandler1 handled request 5
+ConcreteHandler2 handled request 14
+ConcreteHandler3 handled request 22
+ConcreteHandler2 handled request 18
+ConcreteHandler1 handled request 3
+ConcreteHandler3 handled request 27
+ConcreteHandler3 handled request 20
 ```
 ### Real-world code in C#
-This real-world code demonstrates the Flyweight pattern in which a relatively small number of Character objects is shared many times by a document that has potentially many characters.
+This real-world code demonstrates the Chain of Responsibility pattern in which several linked managers and executives can respond to a purchase request or hand it off to a superior. Each position has can have its own set of rules which orders they can approve.
 
 **Output**
 ```
 -------------------Real-world Code------------------
-A (pointsize 11)
-A (pointsize 12)
-Z (pointsize 13)
-Z (pointsize 14)
-B (pointsize 15)
-B (pointsize 16)
-Z (pointsize 17)
-B (pointsize 18)```
+Director Larry approved request# 2034
+President Tammy approved request# 2035
+Request# 2036 requires an executive meeting!
+```
 ### .NET Optimized code in C#
 The .NET optimized code demonstrates the same real-world situation as above but uses modern, built-in .NET features, such as, generics, reflection, LINQ, lambda functions, etc. You can find an example on our Singleton pattern page.	  
