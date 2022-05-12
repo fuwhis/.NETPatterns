@@ -1,4 +1,5 @@
-﻿using Flyweight_Pattern.Structural;
+﻿using Flyweight_Pattern.RealWorld;
+using Flyweight_Pattern.Structural;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,22 +19,39 @@ namespace Flyweight_Pattern
             Console.WriteLine("------------------Structural Code--------------------\n");
             // Arbitrary extrinsic state
             int extrinsicstate = 22;
-            FlyweightFactory factory = new FlyweightFactory();
+            FlyweightFactory factoryI = new FlyweightFactory();
             // Work with different flyweight instances
-            Flyweight fx = factory.GetFlyweight("X");
+            Flyweight fx = factoryI.GetFlyweight("X");
             fx.Operation(--extrinsicstate);
-            Flyweight fy = factory.GetFlyweight("Y");
+            Flyweight fy = factoryI.GetFlyweight("Y");
             fy.Operation(--extrinsicstate);
-            Flyweight fz = factory.GetFlyweight("Z");
+            Flyweight fz = factoryI.GetFlyweight("Z");
             fz.Operation(--extrinsicstate);
 
             UnsharedConcreteFlyweight unsharedConcreteFlyweight = new UnsharedConcreteFlyweight();
             unsharedConcreteFlyweight.Operation(--extrinsicstate);
             #endregion
+
             Console.WriteLine("\n===============================\n");
+
             #region Real-world Code
             Console.WriteLine("-------------------Real-world Code------------------\n");
+            // Build a document with text
+            string document = "AAZZBBZB";
+            char[] chars = document.ToCharArray();
 
+            CharacterFactory factoryII = new CharacterFactory();
+
+            // extrinsic state
+            int pointSize = 10;
+
+            // Foreach character use a flyweight object
+            foreach(char c in chars)
+            {
+                pointSize++;
+                Character character = factoryII.GetCharacter(c);
+                character.Display(pointSize);
+            }
             #endregion
         }
     }
