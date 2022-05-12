@@ -34,7 +34,7 @@ A third form, .NET optimized, demonstrates design patterns that fully exploit bu
 ## Behavioural Patterns
 | Pattern | Purpose | Usage |
 | --- | --- | --- |
-| [Chain of Resp.]() | A way of passing a request between a chain of objects | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg) |
+| [Chain of Resp.](https://github.com/fuwhis/.NETPatterns/tree/master/Chain_of_Responsibility_Pattern) | A way of passing a request between a chain of objects | ![image](https://www.dofactory.com/img/patterns/use-medium-low.jpg) |
 | [Command]() | Encapsulate a command request as an object | ![image](https://www.dofactory.com/img/patterns/use-medium-high.jpg) |
 | [Interpreter]() | A way to include language elements in a program | ![image](https://www.dofactory.com/img/patterns/use-low.jpg) |
 | [Iterator]() | Sequentially access the elements of a collection | ![image](https://www.dofactory.com/img/patterns/use-high.jpg) |
